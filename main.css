@@ -1,0 +1,26 @@
+/*  Macro Layout */
+body {
+    /* border: 5px solid red; */
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: #90c2e7;
+  }
+  
+body > * {
+    /* border: 5px solid purple; */
+  }
+  
+.navbar-brand span {
+    display: inline-block;
+    transform: rotate(45deg);
+    margin: 0 5px;
+  }
+  
+.list-group-item {
+    background-color: #90C2E7;
+  }
+  
+.list-group-item .btn {
+    width: 100%;
+  }
